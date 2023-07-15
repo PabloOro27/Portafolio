@@ -2,14 +2,15 @@ import React from 'react';
 import './index.css';
 import { ImPhone } from 'react-icons/im';
 import { MdEmail } from 'react-icons/md';
+import ImgPerfil from '../assets/images/foto_perfil.jpg';
 
 const Header = () => {
     return (
       <header className="bg-white rounded-lg mt-16 flex p-5 items-center">
-        <div className="w-64 h-64 bg-gray-400 rounded-md mr-2">
+        <div className="w-72 h-64 bg-gray-400 rounded-md mr-3">
           <img
-            className="w-full h-full"
-            src="../assets/images/foto_perfil.jpg"
+            className="w-full h-full rounded-lg"
+            src={ImgPerfil}
             alt="foto de perfil"
           />
         </div>
@@ -21,26 +22,31 @@ const Header = () => {
             </div>
             <div className="text-left text-md">
               <div className="flex items-center">
-                <MdEmail className='mr-2'/>
+                <MdEmail className="mr-2" />
                 <p>pabloorozco2712@gmail.com</p>
               </div>
-              <div className="flex items-center">
+              <a
+                href="https://wa.me/50230366803"
+                target="_blank"
+                className="flex items-center"
+              >
                 <ImPhone className="mr-2" />
                 <p>(+502) 3026 6803</p>
-              </div>
+              </a>
             </div>
           </div>
-          <p className="mb-3">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi,
-            numquam perspiciatis enim cumque eligendi sint aut dolorem, vero
-            magnam culpa facere quae omnis ab vitae. Voluptate alias commodi
-            ipsa consequuntur?
+          <p className="mb-3 text-justify">
+            Soy un programador web junior entusiasta y apasionado que está
+            buscando oportunidades para adquirir experiencia y crecer
+            profesionalmente. Me apasiona el desarrollo web y tengo
+            conocimientos sólidos en lenguajes como HTML, CSS y JavaScript, así
+            como experiencia en el uso de frameworks como React y TailwindCss
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
-            corrupti temporibus voluptate reiciendis! Culpa, dolorum magnam,
-            eaque asperiores repellat sequi placeat dolores, a ipsa
-            exercitationem fugiat deleniti illum? Quos, eligendi?
+            Si estás buscando un programador web junior motivado y comprometido,
+            estaré encantado de unirme a tu equipo. Estoy abierto a
+            oportunidades de pasantías, proyectos a corto plazo o colaboraciones
+            freelance.
           </p>
         </div>
       </header>

@@ -1,0 +1,21 @@
+.bar-container {
+    background-color: #C4C4C4;
+    height: 10px;
+}
+
+.bar {
+    background-color: #2F80ED;
+    height: 100%;
+}
+
+.lista_exp li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.lista_exp li p{
+    margin-right: 12px;
+}
+.div_exp{
+    width: 410px;
+    height: 345px;
+}
