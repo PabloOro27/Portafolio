@@ -1,6 +1,7 @@
 import React from 'react';
 import Experiencia from '../Components/experiencia';
 import Hobbies from '../Components/Hobbies';
+import Contacto from '../Components/Contacto';
 
 const Cuerpo = () => {
     return (

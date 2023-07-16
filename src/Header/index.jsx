@@ -9,7 +9,7 @@ const Header = () => {
       <header className="bg-white rounded-lg mt-16 flex p-5 items-center">
         <div className="w-72 h-64 bg-gray-400 rounded-md mr-3">
           <img
-            className="w-full h-full rounded-lg"
+            className="w-full h-full rounded-lg object-cover"
             src={ImgPerfil}
             alt="foto de perfil"
           />
